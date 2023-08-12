@@ -12,4 +12,4 @@ This maybe a simple app but the idea behind it was my struggle for filtering out
 
 Browse the folder that you want to perform the operation on, then type the keyword that appears within the filename. For instance, if the filename contains the letters "US," only the files with "US" in their names will be shown and can be deleted. Remember that this app is not "Case Sensitive" meaning any file that has US in them will be deleted. So type the complete reference for example if it says (US) then type it with parenthesis.
 
-For example you wanna delete games with Japanese language or games that came from that region. Inspect your file list first and if those game's filename says (Japan) or (JA) don't forget to add the parenthesis because it will definitely help you avoid accidents.
+For example you wanna delete games with Japanese language or games that came from that region. Inspect your file list first and if those game's filename says (Japan) or (JA) don't forget to add the parenthesis if it has because it will definitely help you avoid accidents.
