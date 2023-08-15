@@ -6,18 +6,14 @@ class FileFinderDeleterApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Duplicate Deleter (Reversed)")
-        self.root.geometry("600x400")  # Set a fixed resolution
-
-
+        self.root.geometry("600x400")
         self.selected_folder = tk.StringVar()
         self.search_keyword = tk.StringVar()
-        self.file_vars = []  # Keep track of selected files
+        self.file_vars = [] 
         self.root.resizable(width=False, height=False)
-
         self.create_widgets()
 
     def create_widgets(self):
-        # Folder Selector
         folder_label = tk.Label(self.root, text="Select Folder:")
         folder_label.pack()
 
@@ -27,7 +23,7 @@ class FileFinderDeleterApp:
         browse_button = tk.Button(self.root, text="Browse Folder", command=self.browse_folder)
         browse_button.pack(padx=10, pady=5)
 
-        # Search Bar
+    
         search_label = tk.Label(self.root, text="Search Keyword: (Type the keyword you want to except. Example: (USA) then\n(USA) will not be shown in the results.)")
         search_label.pack()
 
@@ -37,12 +33,10 @@ class FileFinderDeleterApp:
         search_button = tk.Button(self.root, text="Search", command=self.search_files)
         search_button.pack(padx=10, pady=5)
 
-        # File Listbox
         self.file_listbox = tk.Listbox(self.root, selectmode=tk.MULTIPLE)
         self.file_listbox.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
 
 
-        # Delete Button
         delete_button = tk.Button(self.root, text="Delete Selected", command=self.delete_selected)
         delete_button.pack(padx=10, pady=5)
 
@@ -53,14 +47,14 @@ class FileFinderDeleterApp:
 
     def search_files(self):
         self.file_listbox.delete(0, tk.END)
-        search_keyword = self.search_keyword.get().lower()  # Convert search keyword to lowercase
+        search_keyword = self.search_keyword.get().lower()  
         folder_path = self.selected_folder.get()
 
         if not search_keyword or not folder_path:
             return
 
         for filename in os.listdir(folder_path):
-            if search_keyword not in filename.lower():  # Convert filename to lowercase before comparing
+            if search_keyword not in filename.lower():  
                 self.file_listbox.insert(tk.END, filename)
 
     def delete_selected(self):
