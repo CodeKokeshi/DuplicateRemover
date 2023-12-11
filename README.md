@@ -1,17 +1,50 @@
-# Duplicate Remover
-Deletes duplicates especially when filtering romsets/rompacks and you wanna remove duplicates or specific languages or files with specific keywords like "BETA" "Rev" "Japan" and etc.
+# File Finder Deleter App - Duplicate File Deletion Tool - Duplicate Remover
+Its purpose is to help users find and delete files in a selected folder based on a provided search keyword.
 
-# Duplicate Remover
-Ever downloaded a romset or rompack where there's a lot of duplicates? You only want to play English games and want to remove other languages from the region of Japan,  Brazil, France, Europe and etc.?
+# Features:
+1. Users can select a folder using the "Browse Folder" button.
+2. Users can enter a search keyword in the "Search Keyword" field.
+3. Clicking the "Search" button will populate a list of files in the selected folder that match the search keyword.
+4. Users can select one or multiple files from the list for deletion.
+5. Clicking the "Delete Selected" button will attempt to delete the selected files from the folder.
 
-Do you want to delete files with Beta, Alpha and Rev on their names but you have a thousand files ahead of you and your windows explorer search engine is functioning badly. Well this app was developed to counter these problems.
+# How to Use:
+1. Run the program, and a GUI window will appear.
+2. Click the "Browse Folder" button to select the folder in which you want to search for files.
+3. Enter a search keyword in the "Search Keyword" field (leave it empty to match all files).
+4. Click the "Search" button to list files in the selected folder that match the keyword.
+5. Select one or more files from the list by clicking on them.
+6. Click the "Delete Selected" button to remove the selected files from the folder.
+7. Error messages will be displayed if any issues occur during the deletion process.
 
-This maybe a simple app but the idea behind it was my struggle for filtering out files so I can play games on BATOCERA.
+# Note:
+- Exercise caution when using the "Delete Selected" feature, as deleted files cannot be recovered.
+- The program is designed for basic file deletion tasks and may not handle all file types or complex scenarios.
 
-# How To Use Duplicate Remover
-Browse the folder that you want to perform the operation on, then type the keyword that appears within the filename. For instance, if the filename contains the letters "US," only the files with "US" in their names will be shown and can be deleted. Remember that this app is not "Case Sensitive" meaning any file that has US in them will be deleted. So type the complete reference for example if it says (US) then type it with parenthesis.
+# Written by CodeKokeshi - August 15, 2023
 
-For example you wanna delete games with Japanese language or games that came from that region. Inspect your file list first and if those game's filename says (Japan) or (JA) don't forget to add the parenthesis if it has (for example Super Mario Bros (Japan).zip) because it will definitely help you avoid accidents.
+# File Finder Deleter App (Reversed) - File Exclusion Tool - Duplicate Remover (Reversed)
+Its purpose is to help users exclude files in a selected folder that contain a specific keyword.
 
-# Duplicate Remover Reversed
-The application functions in reverse, displaying items that do not contain the keywords you searched for in their names. For instance, if you entered "US," the results will exhibit all files without "US" in their names. Additionally, the app operates in a case-insensitive manner.
+# Features:
+1. Users can select a folder using the "Browse Folder" button.
+2. Users can enter a search keyword in the "Search Keyword" field.
+3. Clicking the "Search" button will list files in the selected folder that do not contain the specified keyword.
+4. Users can select one or multiple files from the list for potential deletion.
+5. Clicking the "Delete Selected" button will attempt to delete the selected files from the folder.
+
+# How to Use:
+1. Run the program, and a GUI window will appear.
+2. Click the "Browse Folder" button to select the folder from which you want to exclude files.
+3. Enter a search keyword in the "Search Keyword" field. Files containing this keyword will be excluded.
+   For example, if you enter "(USA)" as the keyword, files containing "(USA)" in their names will not be displayed.
+4. Click the "Search" button to list files in the selected folder that do not contain the specified keyword.
+5. Select one or more files from the list by clicking on them.
+6. Click the "Delete Selected" button to remove the selected files from the folder.
+7. Error messages will be displayed if any issues occur during the deletion process.
+
+# Note:
+- Be cautious when using the "Delete Selected" feature, as deleted files cannot be recovered.
+- The program is designed for basic file exclusion tasks and may not handle all file types or complex scenarios.
+
+# Written by CodeKokeshi - August 17, 2023
