@@ -21,7 +21,7 @@ Its purpose is to help users find and delete files in a selected folder based on
 - Exercise caution when using the "Delete Selected" feature, as deleted files cannot be recovered.
 - The program is designed for basic file deletion tasks and may not handle all file types or complex scenarios.
 
-# Written by CodeKokeshi - August 15, 2023
+# Written by CodeKokeshi - August 11, 2023
 
 # File Finder Deleter App (Reversed) - File Exclusion Tool - Duplicate Remover (Reversed)
 Its purpose is to help users exclude files in a selected folder that contain a specific keyword.
@@ -47,4 +47,4 @@ Its purpose is to help users exclude files in a selected folder that contain a s
 - Be cautious when using the "Delete Selected" feature, as deleted files cannot be recovered.
 - The program is designed for basic file exclusion tasks and may not handle all file types or complex scenarios.
 
-# Written by CodeKokeshi - August 17, 2023
+# Written by CodeKokeshi - August 14, 2023
