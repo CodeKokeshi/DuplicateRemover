@@ -1,0 +1,11 @@
+# No external dependencies required
+# This application uses only Python standard library modules:
+# - tkinter (GUI framework)
+# - threading (multi-threading support)
+# - queue (thread-safe communication)
+# - os (file system operations)
+# - time (time formatting)
+# - hashlib (file hashing for duplicate detection)
+# - collections (defaultdict for grouping duplicates)
+
+# All modules are included with Python standard installation
